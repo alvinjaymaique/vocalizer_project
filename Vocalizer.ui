@@ -70,7 +70,7 @@ QLabel{
        <x>0</x>
        <y>70</y>
        <width>260</width>
-       <height>601</height>
+       <height>784</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -159,6 +159,9 @@ QPushButton:checked{
            <string notr="true">QListView{
 	background-color: rgb(255, 255, 255);
 }</string>
+          </property>
+          <property name="resizeMode">
+           <enum>QListView::Fixed</enum>
           </property>
          </widget>
         </item>
@@ -685,6 +688,10 @@ color: rgb(226, 226, 226);}</string>
      </property>
      <property name="text">
       <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/Pictures/Raw_Image/Pause_bttn.png</normaloff>:/Pictures/Raw_Image/Pause_bttn.png</iconset>
      </property>
      <property name="iconSize">
       <size>
